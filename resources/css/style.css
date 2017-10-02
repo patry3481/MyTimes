@@ -1,0 +1,41 @@
+/*header*/
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.containerlogo{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.containerlogo p {
+  padding-left: 10px;
+}
+
+.header li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header p {
+  color: MediumAquamarine;
+}
+
+/*main container*/
+.content {
+  border: 2px solid black;
+  display: flex;
+}
+.column.large {
+  width: 630px;
+  border: 1px solid gray;
+  display: flex;
+  
+}
